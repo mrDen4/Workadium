@@ -27,15 +27,26 @@ body {
 	font-display: optional;
 }
 
-.container {
+.header__container {
 	margin: 0 auto;
 	width: 1100px;
 	background: #27273e;
-	height: 80px;
+}
+
+.content__container {
+	margin: 0 auto;
+	width: 880px;
+	
+}
+
+.footer__container {
+	margin: 0 auto;
+	width: 1100px;
+	background: #27273e;
 }
 
 .header {
-	
+	height: 450px;
 }
 
 .logo, .contacts {
@@ -54,12 +65,18 @@ body {
 	color: #ec1e79;
 }
 
-.decoration-img {
+.decor-img {
+	width: 1100px;
+	height: 370px;
+	background: url(../img/decor/head.png);
+}
+
+/*.decoration-img {
 	width: 1025;
 	height: 350;
 	background: #27273e;
 	text-align: center;
-}
+}*/
 
 .content__features, .content__news {
 	font-style: 'GothamPro-Bold', Arial, serif;
@@ -199,9 +216,7 @@ body {
 }
 
 .footer {
-	width: 1100px;
 	height: 77px;
-	background: #27273e;
 }
 
 .footer__text, .logo, .soc-net {
