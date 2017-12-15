@@ -106,15 +106,21 @@ ul {
 }
 
 .header__contact-phone {
+	text-decoration: none;
 	font-style: 'GothamPro-Bold', Arial, serif;
 	font-size: 21px;
 	color: #ffffff;
+	font-weight: 700;
 }
 
-.header__contact__text {
+.header__contact-link {
 	font-weight: bold;
 	font-size: 14px;
 	color: #ec1e79;
+	opacity: 0.7;
+	color: #ec1e79;
+	font-family: "Open Sans", Arial, serif;
+	font-weight: 700;
 }
 
 .header__decor-img {
@@ -351,6 +357,10 @@ ul {
 
 .nav__list {
 	list-style: none;
+}
+
+.nav__item {
+	margin-bottom: 40px;
 }
 
 .nav__img {
