@@ -1,29 +1,31 @@
 @font-face {
-  font-family: 'GothamPro-Bold';
-  src: url('fonts/GothamPro-Bold.woff') format('woff');
-  font-weight: normal;
+  font-family: 'gotham_pro';
+  src: url('../fonts/GothamPro-Bold.woff') format('woff');
+  font-weight: bold;
   font-style: normal;
+  font-display: optional;
 }
 
 @font-face {
-  font-family: 'GothamPro-Light';
-  src: url('fonts/GothamPro-Light.woff') format('woff');
-  font-weight: normal;
+  font-family: 'gotham_pro';
+  src: url('../fonts/GothamPro-Light.woff') format('woff');
+  font-weight: 300;
   font-style: normal;
+  font-display: optional;
 }
 
 @font-face {
-  font-family: 'GothamPro-LightItalic';
-  src: url('fonts/GothamPro-LightItalic.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
+  font-family: 'gotham_pro';
+  src: url('../fonts/GothamPro-LightItalic.woff') format('woff');
+  font-weight: 300;
+  font-style: italic;
+  font-display: optional;
 }
 
 body {
-	font-style: 'GothamPro-Light', Arial, serif;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-	font-display: optional;
+	font-style: 'gotham_pro', Arial, serif;
+ 	-webkit-font-smoothing: antialiased;
+ 	-moz-osx-font-smoothing: grayscale;
 }
 
 html, body {
