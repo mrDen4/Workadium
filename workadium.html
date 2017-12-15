@@ -9,24 +9,28 @@
 </head>
 <body>
 	<div class="wrapper">
-		<div class="header">
+
+		<!-- header -->
+		<header class="header">
 			<div class="header__container">
-				<div class="logo">
+				<div class="logo logo_header">
 					<a href="#" class="logo">
 						<img src="img/logo/logo.png" alt="логотип" class="logo__img">
 					</a>
 				</div>
-				<div class="header__contacts">
+				<address class="header__contacts">
 					<a href="tel:+78000039210" class="header__contact-phone">8 (800) 00-392-10</a>
 					<div class="header__contact-text"> <a href="#" class="contacts_link">График работы</a>
 					</div>
-				</div>
+				</address>
 				<div class="header__decor-img"></div>
 			</div>
-		</div>
-		<div class="content">
+		</header>
+		<main class="content">
 				<div class="content__container clearfix">
-					<div class="nav">
+
+					<!-- nav -->
+					<nav class="nav">
 						<ul class="nav__list">
 							<li class="nav__item">
 								<a href="#" class="nav__link nav__link_active">
@@ -47,9 +51,11 @@
 								</a>
 							</li>
 						</ul>
-					</div>
+					</nav>
 					<div class="cover clearfix">
-						<div class="features clearfix">
+
+						<!-- секция особенностей -->
+						<section class="features clearfix">
 						<h1 class="features__title">Особенности</h1>
 						<div class="features__uniqueness clearfix">
 							<div class="features__img features__uniqueness-img"></div>
@@ -117,13 +123,15 @@
 								</ul>
 							</div>
 						</div>
-						</div>
-						<div class="news">
+						</section>
+
+						<!-- секция новостей -->
+						<section class="news">
 						<h1 class="news__title">Последние новости</h1>
 						<div class="news__roster">
 							<ul class="news__list">
 								<li class="news__item">
-									<div class="black-hole clearfix">
+									<article class="black-hole clearfix">
 										<div class="black-hole__avatar">
 											<img src="img/content/news-1.png" alt="" class="black-hole__img">
 										</div>
@@ -138,10 +146,10 @@
 												Ужасный полет, трясло первые полчаса так, что я боялась отстегнуть ремни. Слава Богу, ничего не случилось, но мне даже валерьянка не помогла, так страшно было. Не рекомендую эту компанию, лучше доплатить и лететь с комфортом.
 											</div>
 										</div>
-									</div>
+									</article>
 								</li>
 								<li class="news__item">
-									<div class="prizes clearfix">
+									<article class="prizes clearfix">
 										<div class="prizes__avatar">
 											<img src="img/content/news-2.png" alt="" class="prizes__img">
 										</div>
@@ -156,10 +164,10 @@
 												Все понравилось, вежливые стюардессы, вовремя убирают, напитки предлагали 2 раза, а еду – 1 раз. Единственное, что не понравилось, как то мало места для ног, но с этим у меня часто проблема, рост 2,1м.
 											</div>
 										</div>
-									</div>
+									</article>
 								</li>
 								<li class="news__item">
-									<div class="workspace clearfix">
+									<article class="workspace clearfix">
 										<div class="workspace__avatar">
 											<img src="img/content/news-3.png" alt="" class="workspace__img">
 										</div>
@@ -174,56 +182,55 @@
 												Не кормили вообще! Сказали, что это из-за того, что полет менее 2,5 часов. Но прибавьте к этому время регистрации в аэропорту. Летел с женой и мы очень проголодались. Просто имейте это ввиду, берите с собой хотя бы бутерброды, чипсы какие-то или печенье.
 											</div>
 										</div>
-									</div>
+									</article>
 								</li>
 							</ul>
 						</div>
-						</div>
-						<div class="pages">
-						<div class="pages__text"> Страница 1 из 7 </div>
-						<div class="pages__roster">
-							<ul class="pages__list">
-								<li class="pages__number">
-									<a href="#" class="pages__link"> < </a>
+						</section>
+
+						<!-- пагинация -->
+						<div class="pagination">
+						<div class="pagination__text"> Страница 1 из 7 </div>
+							<a href="#" class="pagination__btn pagination__btn_prev pagination__btn_active"> < </a>
+							<ul class="pagination__list">
+								<li class="pagination__item">
+									<a href="#" class="pagination__link pagination__link_active"> 1 </a>
 								</li>
-								<li class="pages__number">
-									<a href="#" class="pages__link"> 1 </a>
+								<li class="pagination__item">
+									<a href="#" class="pagination__link"> 2 </a>
 								</li>
-								<li class="pages__number">
-									<a href="#" class="pages__link"> 2 </a>
+								<li class="pagination__item">
+									<a href="#" class="pagination__link"> 3 </a>
 								</li>
-								<li class="pages__number">
-									<a href="#" class="pages__link"> 3 </a>
+								<li class="pagination__item">
+									<a href="#" class="pagination__link"> 4 </a>
 								</li>
-								<li class="pages__number">
-									<a href="#" class="pages__link"> 4 </a>
+								<li class="pagination__item">
+									<a href="#" class="pagination__link"> 5 </a>
 								</li>
-								<li class="pages__number">
-									<a href="#" class="pages__link"> 5 </a>
+								<li class="pagination__item">
+									<a href="#" class="pagination__link"> 6 </a>
 								</li>
-								<li class="pages__number">
-									<a href="#" class="pages__link"> 6 </a>
-								</li>
-								<li class="pages__number">
-									<a href="#" class="pages__link"> 7 </a>
-								</li>
-								<li class="pages__number">
-									<a href="#" class="pages__link"> > </a>
+								<li class="pagination__item">
+									<a href="#" class="pagination__link"> 7 </a>
 								</li>
 							</ul>
-						</div>
+							<a href="#" class="pagination__btn pagination__btn_next"> > </a>
 						</div>
 					</div>
 				</div>
-		</div>
-		<div class="footer">
+		</main>
+	</div>
+	
+	<!-- footer -->
+	<footer class="footer">
 				<div class="footer__container">
 					<div class="footer__text">
 						Сделано с любовью и старанием
 						на курсе «HTML + CSS» в LoftSchool.
 						Автор работы: Прохладов Вадим
 					</div>
-					<div class="logo">
+					<div class="logo logo_footer">
 						<a href="#" class="logo">
 							<img src="img/logo/logo.png" alt="логотип" class="logo__img">
 						</a>
@@ -261,7 +268,6 @@
 						</ul>
 					</div>
 				</div>
-		</div>
-	</div>
+	</footer>
 </body>
 </html>
