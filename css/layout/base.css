@@ -1,0 +1,33 @@
+html, body {
+	height: 100%;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+body {
+	font-style: 'gotham_pro', Arial, serif;
+ 	-webkit-font-smoothing: antialiased;
+ 	-moz-osx-font-smoothing: grayscale;
+}
+
+.wrapper {
+	overflow: hidden;
+  	min-width: 1120px;
+  	min-height: 100%;
+}
+
+.wrapper:after {
+  	content: "";
+  	display: block;
+  	height: 77px;
+}
+
+.clearfix:after {
+  	content: "";
+  	display: block;
+  	clear: both;
+}

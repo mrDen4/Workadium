@@ -1,0 +1,66 @@
+.footer__container {
+	margin: 0 auto;
+	width: 1100px;
+	height: 77px;
+	background: #27273e;
+}
+
+.footer {
+	background: #27273e;
+	clear: both;
+}
+
+.footer__text {
+	float: left;
+	font-size: 14px;
+	color: #ffffff;
+	width: 33%;
+	text-align: left;
+}
+
+.footer__soc-net {
+	text-align: right;
+	float: left;
+	width: 33%;
+	font-size: 14px;
+	color: #ffffff;
+}
+
+.footer__soc-net-list {
+	list-style: none;
+}
+
+.footer__img {
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	display: inline-block;
+}
+
+.footer__img_vk {
+	background: url(../../img/icons/socials/vk.png) center center no-repeat #d4d4d8;
+}
+
+.footer__img_fb {
+	background: url(../../img/icons/socials/fb.png) center center no-repeat #d4d4d8;
+}
+
+.footer__img_google {
+	background: url(../../img/icons/socials/google.png) center center no-repeat #d4d4d8;
+}
+
+.footer__img_twitter {
+	background: url(../../img/icons/socials/twitter.png) center center no-repeat #d4d4d8;
+}
+
+.footer__img_mail {
+	background: url(../../img/icons/socials/mail.png) center center no-repeat #d4d4d8;
+}
+
+.footer__img:hover {
+	background-color: #ec1e79;
+}
+
+.footer__item {
+	display: inline-block;
+}

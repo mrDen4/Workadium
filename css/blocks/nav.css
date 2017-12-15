@@ -1,0 +1,65 @@
+.nav {
+	width: 200px;
+	float: left;
+	display: inline-block;
+}
+
+.cover {
+	float: left;
+	width: 880px;
+}
+
+.nav__list {
+	list-style: none;
+}
+
+.nav__item {
+	margin-bottom: 40px;
+}
+
+.nav__img {
+	padding-right: 20px;
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+}
+
+.nav__main-img {
+	background: url('../../img/icons/menu/main.png') center center no-repeat;
+}
+
+.nav__reviews-img {
+	background: url('../../img/icons/menu/feed.png') center center no-repeat;
+}
+
+.nav__rates-img {
+	background: url('../../img/icons/menu/wallet.png') center center no-repeat;
+}
+
+.nav__link {
+	text-decoration: none;
+}
+
+.nav__text {
+	color: #ec1e79;
+	text-decoration: none;
+	font-size: 12px;
+	display: inline-block;
+	text-transform: uppercase;
+}
+
+.nav__link:hover .nav__text, .nav__link_active .nav__text {
+	color: black;
+}
+
+.nav__link:hover .nav__main-img, .nav__link_active .nav__img {
+	background-image: url('../../img/icons/menu/main_hover.png');
+}
+
+.nav__link:hover .nav__reviews-img {
+	background-image: url('../../img/icons/menu/feed_hover.png');
+}
+
+.nav__link:hover .nav__rates-img {
+	background-image: url('../../img/icons/menu/wallet_hover.png');
+}
