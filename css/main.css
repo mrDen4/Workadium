@@ -6,5 +6,6 @@
 /*blocks*/
 @import url('./blocks/header.css');
 @import url('./blocks/nav.css');
+@import url('./blocks/comments-page.css');
 @import url('./blocks/main-page.css');
 @import url('./blocks/footer.css');
