@@ -1,14 +1,12 @@
-.header__container {
-	margin: 0 auto;
-	width: 1100px;
+.header {
+	height: 77px;
+	background: #27273e;
+}
+
+.header_general {
 	height: 430px;
 	background: #27273e;
 }
-
-.header {
-	background: #27273e;
-}
-
 .logo_header {
 	float: left;
 	width: 50%;
