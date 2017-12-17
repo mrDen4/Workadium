@@ -1,7 +1,10 @@
 .footer {
+	margin-top: 75px;
+	padding-top: 14px;
 	background: #27273e;
-	height: 77px;
+	min-height: 77px;
 	clear: both;
+	font-family: 'gotha_bold', Arial, serif;
 }
 
 .footer__text {
@@ -10,6 +13,7 @@
 	color: #ffffff;
 	width: 33%;
 	text-align: left;
+	font-weight: 300;
 }
 
 .footer__soc-net {

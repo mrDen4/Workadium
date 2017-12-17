@@ -1,18 +1,23 @@
+
 .content {
-	margin-top: 70px;
+	display: inline-block;
 }
 
 .features__title {
-	font-style: 'GothamPro-Bold', Arial, serif;
+	font-family: 'gotha_bold', Arial, serif;
 	font-size: 49px;
-	margin-top: 0px;
+	margin-top: 0;
 	margin-bottom: 65px;
+	color: #221f1f;
 }
 
 .news__title {
-	font-style: 'GothamPro-Bold', Arial, serif;
+	font-family: 'gotha_bold', Arial, serif;
 	font-size: 49px;
+	margin-top: 0;
 	margin-bottom: 75px;
+	color: #221f1f;
+	display: inline-block;
 }
 
 .news__roster {
@@ -59,24 +64,27 @@
 }
 
 .features__subtitle {
-	font-style: 'GothamPro-Bold', Arial, serif;
-	font-size: 10.78px;
+	font-family: 'gotha_bold', Arial, serif;
+	font-size: 11px;
 	text-transform: uppercase;
 	margin-bottom: 30px;
 }
 
-.features__text {
+.features__text, .features__item {
+	font-family: 'gotha_light', Arial, serif;
+	font-size: 18px;
 	margin-bottom: 20px;
+	color: #221f1f;
+}
+
+.features__item:last-child {
+	margin-bottom: 0;
 }
 
 .features__list {
 	text-align: left;
 	list-style: circle;
 	list-style-position: inside;
-}
-
-.features__item {
-	margin-bottom: 20px;
 }
 
 .features__uniqueness-text, .features__uniqueness-roster, .features__premium-text, .features__premium-roster, .features__chairs-text, .features__chairs-roster {
@@ -94,7 +102,6 @@
 	overflow: hidden;
 	float: left;
 	margin-right: 20px;
-	margin-bottom: 30px;
 }
 
 .black-hole__content, .prizes__content, .workspace__content {
@@ -109,15 +116,19 @@
 
 .news, .news__list {
 	list-style: none;
+	margin-bottom: 70px;
 }
 
 .news__item {
-	margin-top: 30px;
+	padding-bottom: 30px;
+	margin-bottom: 30px;
 	border-bottom: 2px solid #f5f5f5;
 }
 
 .news__item:last-child {
+	padding-bottom: 0;
 	border-bottom: none;
+	margin-bottom: 0;
 }
 
 .black-hole__date, .prizes__date, .workspace__date {
@@ -137,7 +148,6 @@
 
 .black-hole__text, .workspace__text, .prizes__text {
 	width: 656px;
-	height: 163px;
 	color: #221f1f;
 	font-family: Roboto;
 	font-size: 18px;
@@ -149,6 +159,7 @@
 
 .pagination {
 	text-align: center;
+	font-family: 'Roboto', Arial, serif;
 }
 
 .pagination__text, .pagination__list {
@@ -160,19 +171,16 @@
 	display: inline-block;
 	text-decoration: none;
 	vertical-align: middle;
-	width: 6px;
-	height: 10px;
+	padding: 7px 10px;
 
 }
 
 .pagination__btn_prev {
-	margin-right: 15px;
 	color: black;
 }
 
 .pagination__btn_next {
 	color: black;
-	margin-left: 15px;
 }
 
 .pagination__btn_active {
@@ -185,22 +193,24 @@
 }
 
 .pagination__link {
-	width: 25px;
-	height: 25px;
 	color: #221f1f;
-	font-family: Roboto;
 	font-size: 14px;
 	font-weight: 700;
-	line-height: 21px;
 	text-align: center;
 	text-decoration: none;
+	padding: 7px 10px;
 }
 
-.pagination__link:hover {
+.pagination__link:hover, .pagination__btn:hover {
 	color: #ffffff;
 	background: #27273e;
 	border-radius: 3px;
+}
 
+.pagination__btn_active:hover {
+	color: #bebdbd;
+	background: white;
+	border-radius: 0;
 }
 
 .pagination__link_active {

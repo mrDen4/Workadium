@@ -1,6 +1,11 @@
+.menu {
+	width: 200px;
+	height: 100%;
+}
+
 .nav {
-	/*width: 200px;*/
-	min-height: 1400px;
+	width: 200px;
+	height: 100%;
 	float: left;
 	display: inline-block;
 }
@@ -37,6 +42,7 @@
 }
 
 .nav__text {
+	font-family: 'gotha_bold', Arial, serif;
 	color: #ec1e79;
 	text-decoration: none;
 	font-size: 12px;

@@ -9,7 +9,7 @@ ul {
 }
 
 body {
-	font-style: 'gotham_pro', Arial, serif;
+	font-family: 'gotha_light', Arial, serif;
  	-webkit-font-smoothing: antialiased;
  	-moz-osx-font-smoothing: grayscale;
 }
@@ -18,12 +18,6 @@ body {
 	overflow: hidden;
   	min-width: 1120px;
   	min-height: 100%;
-}
-
-.wrapper:after {
-  	content: "";
-  	display: block;
-  	height: 77px;
 }
 
 .clearfix:after {
