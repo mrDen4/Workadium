@@ -1,10 +1,10 @@
 .header {
-	height: 77px;
+	min-height: 77px;
 	background: #27273e;
 }
 
 .header_general {
-	height: 430px;
+	min-height: 430px;
 	background: #27273e;
 }
 .logo_header {
