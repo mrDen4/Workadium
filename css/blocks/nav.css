@@ -58,6 +58,10 @@
 	background-image: url('../../img/icons/menu/main_hover.png');
 }
 
+.nav__link_active {
+	pointer-events: none;
+}
+
 .nav__link:hover .nav__reviews-img {
 	background-image: url('../../img/icons/menu/feed_hover.png');
 }

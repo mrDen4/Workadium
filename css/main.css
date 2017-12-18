@@ -7,6 +7,9 @@
 @import url('./blocks/container.css');
 @import url('./blocks/header.css');
 @import url('./blocks/nav.css');
+@import url('./blocks/pagination.css');
 @import url('./blocks/comments-page.css');
+@import url('./blocks/breadcrumbs.css');
 @import url('./blocks/main-page.css');
 @import url('./blocks/footer.css');
+@import url('./blocks/work-drop.css');

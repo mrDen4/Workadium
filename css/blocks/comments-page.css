@@ -1,33 +1,3 @@
-.breadcrumbs__link {
-    font-family: "Gotham Pro - Light Italic";
-    color: #ec1e79;
-    opacity: 0.8;
-    font-size: 14px;
-    font-weight: 400;
-}
-
-.breadcrumbs__item {
-    display: inline-block;
-    vertical-align: middle;
-}
-
-.breadcrumbs__item:after {
-    content: "/";
-    display: inline-block;
-    opacity: 0.8;
-    color: #221f1f;
-}
-
-.breadcrumbs__item:last-child:after {
-    display: none;
-}
-
-.breadcrumbs__link_active {
-    opacity: 0.8;
-    color: #221f1f;
-    text-decoration: none;
-}
-
 .comments {
     margin-bottom: 47px;
 }

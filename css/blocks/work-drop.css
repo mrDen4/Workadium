@@ -1,0 +1,29 @@
+.work-drop {
+    width: 165px;
+    height: 70px;
+    background: white;
+    text-align: center;
+    margin-top: 11px;
+    float: right;
+    font-family: 'gotha_bold', Arial, serif;
+    font-size: 14px;
+    position: relative;
+    opacity: 0;
+}
+
+.triangle {
+    border-top: 0px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid white;
+    border-left: 10px solid transparent;
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    bottom: 100%;
+    left: 100%;
+    margin-left: -20px;
+}
+
+.header__schedule:hover + .work-drop {
+    opacity: 1;
+}
