@@ -3,13 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="a28fa31a-302f-4c4a-8256-fdaade293bc4" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/css/blocks/footer.css" afterPath="$PROJECT_DIR$/css/blocks/footer.css" />
-      <change beforePath="$PROJECT_DIR$/css/blocks/header.css" afterPath="$PROJECT_DIR$/css/blocks/header.css" />
-      <change beforePath="$PROJECT_DIR$/css/blocks/main-page.css" afterPath="$PROJECT_DIR$/css/blocks/main-page.css" />
-      <change beforePath="$PROJECT_DIR$/css/blocks/nav.css" afterPath="$PROJECT_DIR$/css/blocks/nav.css" />
-      <change beforePath="$PROJECT_DIR$/css/layout/base.css" afterPath="$PROJECT_DIR$/css/layout/base.css" />
-      <change beforePath="$PROJECT_DIR$/css/layout/fonts.css" afterPath="$PROJECT_DIR$/css/layout/fonts.css" />
-      <change beforePath="$PROJECT_DIR$/workadium.html" afterPath="$PROJECT_DIR$/workadium.html" />
+      <change beforePath="$PROJECT_DIR$/comments.html" afterPath="$PROJECT_DIR$/comments.html" />
+      <change beforePath="$PROJECT_DIR$/css/blocks/comments-page.css" afterPath="$PROJECT_DIR$/css/blocks/comments-page.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -25,11 +20,21 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="workadium.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="workadium.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/workadium.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="483">
-                  <caret line="21" column="71" lean-forward="true" selection-start-line="21" selection-start-column="71" selection-end-line="21" selection-end-column="71" />
+                <state relative-caret-position="4059">
+                  <caret line="187" column="35" lean-forward="true" selection-start-line="187" selection-start-column="35" selection-end-line="187" selection-end-column="35" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="comments.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/comments.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="662">
+                  <caret line="141" column="22" lean-forward="false" selection-start-line="141" selection-start-column="22" selection-end-line="141" selection-end-column="22" />
                   <folding />
                 </state>
               </provider>
@@ -43,17 +48,27 @@
             <entry file="file://$PROJECT_DIR$/css/blocks/footer.css">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="345">
-                  <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+                  <caret line="15" column="21" lean-forward="false" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="header.css" pinned="false" current-in-tab="true">
+          <file leaf-file-name="header.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/blocks/header.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="489">
+                <state relative-caret-position="805">
                   <caret line="35" column="19" lean-forward="true" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="comments-page.css" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/css/blocks/comments-page.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="361">
+                  <caret line="96" column="18" lean-forward="false" selection-start-line="96" selection-start-column="18" selection-end-line="96" selection-end-column="18" />
                   <folding />
                 </state>
               </provider>
@@ -62,8 +77,8 @@
           <file leaf-file-name="nav.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/blocks/nav.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="161">
-                  <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+                <state relative-caret-position="92">
+                  <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -72,7 +87,7 @@
           <file leaf-file-name="main-page.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/blocks/main-page.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="324">
+                <state relative-caret-position="977">
                   <caret line="195" column="19" lean-forward="false" selection-start-line="195" selection-start-column="19" selection-end-line="195" selection-end-column="19" />
                   <folding />
                 </state>
@@ -135,6 +150,7 @@
     <findStrings>
       <find>ava</find>
       <find>news__lis</find>
+      <find>comments</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -144,16 +160,16 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/css/main.css" />
-        <option value="$PROJECT_DIR$/css/blocks/comments-page.css" />
-        <option value="$PROJECT_DIR$/comments.html" />
         <option value="$PROJECT_DIR$/css/blocks/container.css" />
         <option value="$PROJECT_DIR$/css/layout/fonts.css" />
         <option value="$PROJECT_DIR$/css/blocks/main-page.css" />
         <option value="$PROJECT_DIR$/css/layout/base.css" />
-        <option value="$PROJECT_DIR$/css/blocks/nav.css" />
         <option value="$PROJECT_DIR$/css/blocks/footer.css" />
         <option value="$PROJECT_DIR$/workadium.html" />
         <option value="$PROJECT_DIR$/css/blocks/header.css" />
+        <option value="$PROJECT_DIR$/css/blocks/nav.css" />
+        <option value="$PROJECT_DIR$/comments.html" />
+        <option value="$PROJECT_DIR$/css/blocks/comments-page.css" />
       </list>
     </option>
   </component>
@@ -276,15 +292,15 @@
       <workItem from="1513504083784" duration="1604000" />
       <workItem from="1513508922848" duration="2808000" />
       <workItem from="1513531404190" duration="3186000" />
+      <workItem from="1513595213947" duration="3189000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22729000" />
+    <option name="totallyTimeSpent" value="25918000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1600" height="1200" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -622,20 +638,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/blocks/comments-page.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1909">
-          <caret line="83" column="18" lean-forward="false" selection-start-line="83" selection-start-column="18" selection-end-line="83" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/comments.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="31" column="49" lean-forward="false" selection-start-line="31" selection-start-column="49" selection-end-line="31" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
@@ -660,10 +662,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/blocks/main-page.css">
+    <entry file="file://$PROJECT_DIR$/css/blocks/footer.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="195" column="19" lean-forward="false" selection-start-line="195" selection-start-column="19" selection-end-line="195" selection-end-column="19" />
+        <state relative-caret-position="345">
+          <caret line="15" column="21" lean-forward="false" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workadium.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4059">
+          <caret line="187" column="35" lean-forward="true" selection-start-line="187" selection-start-column="35" selection-end-line="187" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/blocks/header.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="805">
+          <caret line="35" column="19" lean-forward="true" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
           <folding />
         </state>
       </provider>
@@ -678,32 +696,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/blocks/nav.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        <state relative-caret-position="92">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/blocks/footer.css">
+    <entry file="file://$PROJECT_DIR$/css/blocks/main-page.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+        <state relative-caret-position="977">
+          <caret line="195" column="19" lean-forward="false" selection-start-line="195" selection-start-column="19" selection-end-line="195" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/workadium.html">
+    <entry file="file://$PROJECT_DIR$/comments.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="21" column="71" lean-forward="true" selection-start-line="21" selection-start-column="71" selection-end-line="21" selection-end-column="71" />
+        <state relative-caret-position="662">
+          <caret line="141" column="22" lean-forward="false" selection-start-line="141" selection-start-column="22" selection-end-line="141" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/blocks/header.css">
+    <entry file="file://$PROJECT_DIR$/css/blocks/comments-page.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="489">
-          <caret line="35" column="19" lean-forward="true" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
+        <state relative-caret-position="361">
+          <caret line="96" column="18" lean-forward="false" selection-start-line="96" selection-start-column="18" selection-end-line="96" selection-end-column="18" />
           <folding />
         </state>
       </provider>
