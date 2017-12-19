@@ -45,9 +45,10 @@
 	font-family: "Open Sans", Arial, serif;
 	font-weight: 700;
 	text-decoration: underline;
-	display: block;
-	width: 100%;
+	display: inline-block;
+	/*width: 100%;*/
 	text-align: right;
+	float: right;
 }
 
 .header__decor-img {

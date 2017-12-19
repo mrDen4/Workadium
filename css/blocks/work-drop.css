@@ -1,4 +1,5 @@
 .work-drop {
+    display: inline-block;
     width: 165px;
     height: 70px;
     background: white;
@@ -9,9 +10,16 @@
     font-size: 14px;
     position: relative;
     opacity: 0;
+    top: 20px;
+    left: 100px;
+    box-shadow: 0 0 10px rgba(23, 59, 117, 0.55);
 }
 
-.triangle {
+.work-drop__text--bold {
+    color: #ec1e79;
+}
+
+.work-drop__triangle {
     border-top: 0px solid transparent;
     border-right: 10px solid transparent;
     border-bottom: 10px solid white;
@@ -26,4 +34,8 @@
 
 .header__schedule:hover + .work-drop {
     opacity: 1;
+}
+
+.header__schedule:hover {
+    color: #5dd1f8;
 }

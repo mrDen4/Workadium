@@ -1,0 +1,26 @@
+.rates__title {
+    font-family: 'gotha_bold', Arial, serif;
+    font-size: 49px;
+}
+
+.rates__list {
+
+}
+
+.rates__item {
+    min-width: 250px;
+    min-height: 350px;
+    display: inline-block;
+}
+
+.rates__img {
+    display: inline-block;
+    width: 250px;
+    height: 153px;
+    background-color: #27273e;
+    opacity: 0.85;
+}
+
+.rates__img--one {
+    background: url("../../img/content/rates/one.png");
+}

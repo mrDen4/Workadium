@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <title>Отзывы</title>
@@ -22,8 +22,8 @@
                 <div class="header__phone"><a href="tel:+78000039210" class="header__contact-phone">8 (800) 00-392-10</a></div>
                 <button class="header__schedule">График работы</button>
                 <div class="work-drop">
-                    <div class="triangle"></div>
-                    <p class="work-drop__text">пн-вс: 09:00-20:00</p>
+                    <div class="work-drop__triangle"></div>
+                    <p class="work-drop__text work-drop__text--bold">пн-вс: 09:00-20:00</p>
                     <p class="work-drop__text">обед: 14:00-14:30</p>
                 </div>
             </address>
@@ -152,22 +152,23 @@
     <section class="feedback clearfix">
         <h1 class="feedback__title">Оставить отзыв</h1>
         <form action="" class="feedback__form">
-            <div class="feedback__info">
-                <p class="feedback__subtitle">Ваше имя</p>
+            <div class="feedback__info feedback__info--name">
+                <label for="name">Ваше имя</label>
                 <input type="text" class="feedback__name" placeholder="Андрей">
             </div>
             <div class="feedback__info">
-                <p class="feedback__subtitle">Ссылка на профиль VK</p>
-                <input type="text" class="feedback__link-vk" placeholder="vk.com/example">
+                <label for="social">Ссылка на профиль VK</label>
+                <input type="url" class="feedback__link-vk" placeholder="vk.com/example">
             </div>
             <div class="feedback__info-text">
-                <p class="feedback__subtitle">Текст отзыва</p>
-                <input type="text" class="feedback__text" placeholder="Мне понравилось">
+                <label for="text">Текст отзыва</label>
+                <textarea name="text-like" class="feedback__text" placeholder="Мне понравилось"></textarea>
+                <!--<textarea type="text" class="feedback__text" placeholder="Мне понравилось">-->
             </div>
            <div class="feedback__info-radio">
-               <p class="feedback__subtitle">Отображать фото в отзыве?</p>
-               <input name="ask" type="radio" class="feedback__photo" value="yes">Да
-               <input name="ask" type="radio" class="feedback__photo" value="no">Нет
+               <label for="photo">Отображать фото в отзыве?</label>
+               <input name="ask" type="radio" class="feedback__photo" value="yes"><label for="yes">Да</label>
+               <input name="ask" type="radio" class="feedback__photo" value="no"><label for="yes">Нет</label>
            </div>
             <div class="feedback__button">
                 <input type="button" class="feedback__send" value="Отправить">

@@ -82,24 +82,39 @@
 
 .feedback {
     margin: 0 auto;
-    padding-left: 70px;
-    padding-top: 51px;
-    width: 700px;
-    height: 427px;
+    padding: 50px 70px;
+    width: 560px;
+    height: 330px;
     background-color: #f5f5f5;
 }
 
 .feedback__title {
+    margin: 0;
+    margin-bottom: 30px;
     color: #221f1f;
     font-size: 49px;
-    font-weight: 700;
-    line-height: 38px;
+   font-family: 'gotha_bold', Arial, serif;
+}
+
+.feedback__info {
+    display: inline-block;
+    width: 270px;
+    height: 65px;
+    margin-bottom: 20px;
+}
+
+.feedback__info--name {
+    margin-right: 15px;
 }
 
 .feedback__name, .feedback__link-vk {
-    width: 269px;
-    height: 45px;
+    padding: 0;
+    width: 266px;
+    height: 43px;
     display: inline-block;
+    border-radius: 5px;
+    border: none;
+    outline: 0;
 }
 
 .feedback__subtitle {
@@ -108,30 +123,44 @@
     font-weight: 300;
 }
 
-.feedback__info {
-    float: left;
-    margin-right: 23px;
-}
-
 .feedback__info-text {
-    width: 570px;
-    height: 120px;
+    width: 565px;
+    height: 115px;
     float: left;
+    display: inline-block;
     margin-bottom: 20px;
 }
 
 .feedback__text {
-    width: 561px;
+    width: 554px;
     height: 90px;
+    border-radius: 5px;
+    border: none;
+    outline: 0;
+    resize: none;
+}
 
+label[for="photo"] {
+    display: inline-block;
+    width: 100%;
+    font-size: 14px;
+    font-family: 'gotha_light', Arial, serif;
+    margin-bottom: 10px;
 }
 
 .feedback__text:hover, .feedback__name:hover, .feedback__link-vk:hover {
     border: 1px solid #ec1e79;
 }
 
+.feedback__text:focus, .feedback__name:focus, .feedback__link-vk:focus {
+    background: #ffe;
+    border: 1px solid #ec1e79;
+}
+
 .feedback__info-radio {
+    width: 203px;
     float: left;
+    margin-right: 218px;
 }
 
 .feedback__photo {
@@ -145,12 +174,9 @@
     border: #ec1e79;
 }
 
-.feedback__info-radio {
-    margin-right: 220px;
-}
-
 .feedback__button {
-    margin-top: 20px;
+    width: 139px;
+    height: 45px;
     float: left;
 }
 
@@ -163,5 +189,9 @@
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 2.4px;
+}
+
+.feedback__send:focus {
+    background: #ec1e79;
 }
 
