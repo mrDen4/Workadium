@@ -31,11 +31,11 @@
 }
 
 .nav__reviews-img {
-	background: url('../../img/icons/menu/feed.png') center center no-repeat;
+	background-position: -50px -10px;
 }
 
 .nav__rates-img {
-	background: url('../../img/icons/menu/wallet.png') center center no-repeat;
+	background-position: -49px -48px;
 }
 
 .nav__link {
@@ -56,17 +56,18 @@
 }
 
 .nav__link:hover .nav__main-img, .nav__link_active .nav__img {
-	background-image: url('../../img/icons/menu/main_hover.png');
+	background-position: -90px -10px;
 }
 
 .nav__link_active {
 	pointer-events: none;
 }
 
+
 .nav__link:hover .nav__reviews-img {
-	background-image: url('../../img/icons/menu/feed_hover.png');
+	background-position: -10px -10px;
 }
 
 .nav__link:hover .nav__rates-img {
-	background-image: url('../../img/icons/menu/wallet_hover.png');
+	background-position: -10px -48px;
 }

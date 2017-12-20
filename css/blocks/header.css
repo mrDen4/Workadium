@@ -55,4 +55,14 @@
 	width: 1100px;
 	height: 363px;
 	background: url(../../img/decor/head.png);
+	position: relative;
+}
+
+.header__anchor {
+	width: 42px;
+	height: 26px;
+	display: block;
+	position: absolute;
+	top: 85%;
+	right: 48%;
 }

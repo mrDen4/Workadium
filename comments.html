@@ -167,8 +167,16 @@
             </div>
            <div class="feedback__info-radio">
                <label class="feedback__display-photo">Отображать фото в отзыве?</label>
-               <input name="ask" type="radio" class="feedback__photo" value="yes"><label for="yes">Да</label>
-               <input name="ask" type="radio" class="feedback__photo" value="no"><label for="yes">Нет</label>
+               <label class="feedback__photo-check-yes">
+                   <input name="ask" type="radio" class="feedback__photo feedback__photo--yes" value="yes">Да
+                   <span class="feedback__check-yes"></span>
+                   <span class="feedback__point-yes"></span>
+               </label>
+               <label class="feedback__photo-check-no">
+                   <input name="ask" type="radio" class="feedback__photo feedback__photo--no" value="no">Нет
+                   <span class="feedback__check-no"></span>
+                   <span class="feedback__point-no"></span>
+               </label>
            </div>
             <div class="feedback__button">
                 <input type="button" class="feedback__send" value="Отправить">
