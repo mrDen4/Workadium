@@ -140,7 +140,7 @@
     resize: none;
 }
 
-label[for="photo"] {
+.feedback__display-photo {
     display: inline-block;
     width: 100%;
     font-size: 14px;
