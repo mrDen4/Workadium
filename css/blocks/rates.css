@@ -4,23 +4,153 @@
 }
 
 .rates__list {
-
+    vert-align: top;
 }
 
 .rates__item {
-    min-width: 250px;
-    min-height: 350px;
+    width: 250px;
+    min-height: 375px;
     display: inline-block;
+    margin-right: 45px;
+    margin-bottom: 50px;
+    vertical-align: top;
 }
 
 .rates__img {
     display: inline-block;
     width: 250px;
     height: 153px;
-    background-color: #27273e;
-    opacity: 0.85;
+    margin-bottom: 26px;
+    position: relative;
+}
+
+.rates__img-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: #5dd1f8;
+    font-size: 24px;
+    font-family: 'gotha_bold', Arial, serif;
+    text-align: center;
 }
 
 .rates__img--one {
-    background: url("../../img/content/rates/one.png");
+    background: url("../../img/content/rates/tarifs/one.png");
+}
+
+.rates__img--three {
+    background: url("../../img/content/rates/tarifs/three.png");
+}
+
+.rates__img--10-10 {
+    background: url("../../img/content/rates/tarifs/10-10.png");
+}
+
+.rates__img--vip-for-one {
+    background: url("../../img/content/rates/tarifs/vip-for-one.png");
+}
+
+.rates__img--all-inclusive {
+    background: url("../../img/content/rates/tarifs/all inclusive.png");
+}
+
+.rates__img--conversation {
+    background: url("../../img/content/rates/tarifs/conversation.png");
+}
+
+.rates__subtitle {
+    font-size: 18px;
+    font-family: 'gotha_bold', Arial, serif;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.rates__text {
+    font-size: 14px;
+    width: 230px;
+    font-family: 'gotha_light', Arial, serif;
+    line-height: 21px;
+    text-align: center;
+}
+
+/*Partners*/
+
+.partners__title {
+    font-family: 'gotha_bold', Arial, serif;
+    font-size: 49px;
+}
+
+.partners__logo {
+
+}
+
+.partners__link {
+    display: inline-block;
+    margin-right: 120px;
+    margin-bottom: 55px;
+}
+
+.partners__avatar {
+    background: url("../../img/sprite/rates-sprite.png") no-repeat;
+}
+
+.partners__avatar--winter {
+    width: 160px;
+    height: 41px;
+    background-position: -190px -334px;
+}
+
+.partners__avatar--drop {
+    width: 123px;
+    height: 62px;
+    background-position: -160px -252px;
+}
+
+.partners__avatar--anna {
+    width: 130px;
+    height: 62px;
+    background-position: -10px -252px;
+}
+
+.partners__avatar--tishkin {
+    width: 160px;
+    height: 60px;
+    background-position: -10px -10px;
+}
+
+.partners__avatar--pyphok {
+    width: 137px;
+    height: 62px;
+    background-position: -10px -170px;
+}
+
+.partners__avatar--avatntash {
+    width: 51px;
+    height: 62px;
+    background-position: -347px -92px;
+}
+
+.partners__avatar--winter:hover {
+    background-position: -10px -334px;
+}
+
+.partners__avatar--drop:hover {
+    background-position: -347px -10px;
+}
+
+.partners__avatar--anna:hover {
+    background-position: -167px -170px;
+}
+
+.partners__avatar--tishkin:hover {
+    background-position: -10px -90px;
+}
+
+.partners__avatar--pyphok:hover {
+    background-position: -190px -10px;
+}
+
+.partners__avatar--avatntash:hover {
+    background-position: -418px -92px;
 }

@@ -23,7 +23,7 @@
 	width: 20px;
 	height: 20px;
 	display: inline-block;
-	background: url('../../img/sprite/css_sprites.png') no-repeat;
+	background: url('../../img/sprite/menu-sprite.png') no-repeat;
 }
 
 .nav__main-img {
@@ -40,23 +40,31 @@
 
 .nav__link {
 	text-decoration: none;
+	color: #ec1e79;
 }
 
 .nav__text {
 	font-family: 'gotha_bold', Arial, serif;
-	color: #ec1e79;
 	text-decoration: none;
 	font-size: 12px;
 	display: inline-block;
 	text-transform: uppercase;
 }
 
-.nav__link:hover .nav__text, .nav__link_active .nav__text {
+.nav__link:hover .nav__text, .nav__link-active--main, .nav__link-active--comments, .nav__link-active--rates {
 	color: black;
 }
 
-.nav__link:hover .nav__main-img, .nav__link_active .nav__img {
+.nav__link:hover .nav__main-img, .nav__link-active--main .nav__img {
 	background-position: -90px -10px;
+}
+
+.nav__link:hover .nav__main-img, .nav__link-active--comments .nav__img {
+	background-position: -10px -10px;
+}
+
+.nav__link:hover .nav__main-img, .nav__link-active--rates .nav__img {
+	background-position: -10px -48px;
 }
 
 .nav__link_active {
