@@ -71,6 +71,9 @@
 	pointer-events: none;
 }
 
+.nav__link:hover .nav__main-img {
+	background-position: -90px -10px;
+}
 
 .nav__link:hover .nav__reviews-img {
 	background-position: -10px -10px;
