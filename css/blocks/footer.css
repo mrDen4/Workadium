@@ -33,6 +33,7 @@
 	height: 20px;
 	border-radius: 50%;
 	display: inline-block;
+	transition: background .5s;
 }
 
 .footer__img_vk {

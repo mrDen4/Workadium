@@ -24,6 +24,7 @@
 	height: 20px;
 	display: inline-block;
 	background: url('../../img/sprite/menu-sprite.png') no-repeat;
+	transition: background .5s;
 }
 
 .nav__main-img {
@@ -49,6 +50,7 @@
 	font-size: 12px;
 	display: inline-block;
 	text-transform: uppercase;
+	transition: color .5s;
 }
 
 .nav__link:hover .nav__text, .nav__link-active--main, .nav__link-active--comments, .nav__link-active--rates {

@@ -37,6 +37,7 @@
     width: 182px;
     height: 46px;
     position: relative;
+    transition: background 1s, color 1s;
 }
 
 .animate__link-text {

@@ -41,17 +41,18 @@
     text-align: center;
     text-decoration: none;
     padding: 7px 10px;
+    transition: color .5s, background .5s;
 }
 
 .pagination__link:hover, .pagination__btn:hover {
-    color: #ffffff;
+    color: #ec1e79;
     background: #27273e;
     border-radius: 3px;
 }
 
 .pagination__link_active {
     pointer-events: none;
-    color: #ffffff;
+    color: #ec1e79;
     background: #27273e;
     border-radius: 3px;
 }

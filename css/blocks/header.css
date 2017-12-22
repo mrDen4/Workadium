@@ -49,6 +49,7 @@
 	/*width: 100%;*/
 	text-align: right;
 	float: right;
+	transition: color 5s;
 }
 
 .header__decor-img {
