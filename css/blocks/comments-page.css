@@ -5,7 +5,7 @@
 .comments__header {
     margin-top: 28px;
     margin-bottom: 50px;
-    font-family: "Gotham Pro";
+    font-family: 'gotha_bold', Arial, serif;
     font-size: 49px;
     font-weight: 700;
     color: #221f1f;
@@ -19,6 +19,10 @@
     float: left;
     margin-right: 20px;
     display: inline-block;
+}
+
+.comment__empty-img {
+    background: whitesmoke url("../../img/logo/logo.png") center center no-repeat;
 }
 
 .comment__content {

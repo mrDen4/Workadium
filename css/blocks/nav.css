@@ -8,6 +8,7 @@
 	height: 100%;
 	float: left;
 	display: inline-block;
+	animation: naving 1s;
 }
 
 .nav__list {
@@ -25,6 +26,7 @@
 	display: inline-block;
 	background: url('../../img/sprite/menu-sprite.png') no-repeat;
 	transition: background .5s;
+	-webkit-transition: background .5s;
 }
 
 .nav__main-img {
@@ -51,10 +53,12 @@
 	display: inline-block;
 	text-transform: uppercase;
 	transition: color .5s;
+	-webkit-transition: color .5s;
 }
 
 .nav__link:hover .nav__text, .nav__link-active--main, .nav__link-active--comments, .nav__link-active--rates {
 	color: black;
+	pointer-events: none;
 }
 
 .nav__link:hover .nav__main-img, .nav__link-active--main .nav__img {
@@ -69,10 +73,6 @@
 	background-position: -10px -48px;
 }
 
-.nav__link_active {
-	pointer-events: none;
-}
-
 .nav__link:hover .nav__main-img {
 	background-position: -90px -10px;
 }
@@ -83,4 +83,14 @@
 
 .nav__link:hover .nav__rates-img {
 	background-position: -10px -48px;
+}
+
+@keyframes naving {
+	0% {
+		transform: translateX(-100px);
+	}
+
+	100% {
+		transform: translateX(0px);
+	}
 }

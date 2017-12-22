@@ -38,6 +38,7 @@
     height: 46px;
     position: relative;
     transition: background 1s, color 1s;
+    -webkit-transition: background 1s, color 1s;
 }
 
 .animate__link-text {
@@ -51,4 +52,30 @@
 .animate__link-item:hover {
     background: #ec1e79;
     color: white;
+}
+
+.animate__work {
+    animation: work 1s;
+}
+
+@keyframes work {
+    0% {
+        transform: translateY(100px) rotate(0deg);
+        opacity: 0;
+    }
+
+    50% {
+        transform: rotate(10deg);
+        opacity: 0.2;
+    }
+
+    90%{
+        transform: rotate(-10deg);
+        opacity: .5;
+    }
+
+    100%{
+        transform: rotate(0deg);
+        opacity: 1 ;
+    }
 }

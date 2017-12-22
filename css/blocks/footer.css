@@ -16,6 +16,10 @@
 	font-weight: 300;
 }
 
+.footer__loft-link {
+	color: white;
+}
+
 .footer__soc-net {
 	text-align: right;
 	float: left;
@@ -34,6 +38,7 @@
 	border-radius: 50%;
 	display: inline-block;
 	transition: background .5s;
+	-webkit-transition: background .5s;
 }
 
 .footer__img_vk {

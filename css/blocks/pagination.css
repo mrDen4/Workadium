@@ -13,7 +13,7 @@
     text-decoration: none;
     vertical-align: middle;
     padding: 7px 10px;
-
+    transition: color .5s, background .5s;
 }
 
 .pagination__btn_prev {

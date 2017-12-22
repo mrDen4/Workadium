@@ -13,8 +13,10 @@
     top: 20px;
     left: 100px;
     box-shadow: 0 0 10px rgba(23, 59, 117, 0.55);
+    border-radius: 3px;
     z-index: 10;
     transition: opacity 1s;
+    -webkit-transition: opacity 1s;
 }
 
 .work-drop__text--bold {
@@ -31,7 +33,7 @@
     position: absolute;
     bottom: 100%;
     left: 100%;
-    margin-left: -20px;
+    margin-left: -22px;
 }
 
 .header__schedule:hover + .work-drop {
