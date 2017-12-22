@@ -1,6 +1,7 @@
 .content {
 	width: 900px;
 	display: inline-block;
+	animation: scrolling 1s;
 }
 
 .features__title {
@@ -28,7 +29,7 @@
 	float: left;
 	width: 100%;
 	margin-bottom: 90px;
-	animation: scrolling 1s;
+
 }
 
 .features__uniqueness, .features__premium {
