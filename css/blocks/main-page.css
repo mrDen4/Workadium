@@ -4,11 +4,17 @@
 	animation: scrolling 1s;
 }
 
+.content--comments {
+	margin-left: 12px;
+	width: 888px;
+}
+
 .features__title {
 	font-family: 'gotha_bold', Arial, serif;
 	font-size: 49px;
+	margin-bottom: 50px;
+	margin-left: 15px;
 	margin-top: 0;
-	margin-bottom: 65px;
 	color: #221f1f;
 }
 
@@ -16,7 +22,8 @@
 	font-family: 'gotha_bold', Arial, serif;
 	font-size: 49px;
 	margin-top: 0;
-	margin-bottom: 75px;
+	margin-bottom: 66px;
+	margin-left: 15px;
 	color: #221f1f;
 	display: inline-block;
 }
@@ -28,7 +35,7 @@
 .features {
 	float: left;
 	width: 100%;
-	margin-bottom: 90px;
+	margin-bottom: 78px;
 
 }
 
@@ -36,7 +43,7 @@
 	text-align: center;
 	float: left;
 	width: 205px;
-	margin-right: 70px;
+	margin-right: 67px;
 }
 
 .features__chairs {
@@ -49,7 +56,7 @@
 	display: inline-block;
 	width: 70px;
 	height: 70px;
-	margin-bottom: 30px;
+	margin-bottom: 25px;
 	border-radius: 50%;
 }
 
@@ -67,21 +74,32 @@
 
 .features__subtitle {
 	font-family: 'gotha_bold', Arial, serif;
-	font-size: 11px;
+	font-size: 14px;
 	text-transform: uppercase;
-	margin-bottom: 30px;
+	margin-bottom: 19px;
 }
 
 .features__item-text, .features__text {
 	font-family: 'gotha_light', Arial, serif;
 	font-size: 18px;
+	line-height: 29px;
 	color: #221f1f;
-	margin-bottom: 20px;
+	margin-bottom: 8px;
+}
+
+.features__item-text {
+	padding-left: 11px;
+	font-family: 'gotha_light', Arial, serif;
+	font-size: 18px;
+	line-height: 29px;
+	color: #221f1f;
+	margin-bottom: 8px;
 }
 
 .features__item {
 	color: red;
-	margin-bottom: 20px;
+	margin-bottom: 6px;
+	padding-left: 8px;
 }
 
 .features__item:last-child {
@@ -109,9 +127,11 @@
 	overflow: hidden;
 	float: left;
 	margin-right: 20px;
+	margin-left: 9px;
 }
 
 .black-hole__content, .prizes__content, .workspace__content {
+	margin-top: -5px;
 	width: 695px;
 	float: left;
 }
@@ -123,7 +143,7 @@
 
 .news, .news__list {
 	list-style: none;
-	margin-bottom: 70px;
+	margin-bottom: 55px;
 }
 
 .news__item {
@@ -154,12 +174,12 @@
 }
 
 .black-hole__text, .workspace__text, .prizes__text {
-	width: 656px;
+	width: 700px;
 	color: #221f1f;
 	font-family: Roboto;
 	font-size: 18px;
 	font-weight: 300;
-	line-height: 21px;
+	line-height: 32px;
 }
 
 @keyframes scrolling {

@@ -1,5 +1,5 @@
 .footer {
-	margin-top: 75px;
+	margin-top: 66px;
 	padding-top: 14px;
 	background: #27273e;
 	min-height: 77px;
@@ -7,9 +7,13 @@
 	font-family: 'gotha_bold', Arial, serif;
 }
 
+.footer--comments {
+	margin-top: 49px;
+}
+
 .footer__text {
 	float: left;
-	font-size: 14px;
+	font-size: 15px;
 	color: #ffffff;
 	width: 33%;
 	text-align: left;
@@ -21,6 +25,7 @@
 }
 
 .footer__soc-net {
+	margin-top: 4px;
 	text-align: right;
 	float: left;
 	width: 33%;
@@ -29,6 +34,7 @@
 }
 
 .footer__soc-net-list {
+	margin-top: 7px;
 	list-style: none;
 }
 
@@ -66,5 +72,6 @@
 }
 
 .footer__item {
+	margin-right: 10px;
 	display: inline-block;
 }

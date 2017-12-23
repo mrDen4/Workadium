@@ -42,4 +42,5 @@
 
 .header__schedule:hover {
     color: #5dd1f8;
+    cursor: pointer;
 }

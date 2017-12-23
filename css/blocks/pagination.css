@@ -1,9 +1,16 @@
 .pagination {
+    margin-left: 61px;
     text-align: center;
     font-family: 'Roboto', Arial, serif;
 }
 
+.pagination--comments {
+    text-align: left;
+    margin-left: 228px;
+}
+
 .pagination__text, .pagination__list {
+    font-size: 14px;
     display: inline-block;
     vertical-align: middle;
 }
@@ -40,14 +47,12 @@
     font-weight: 700;
     text-align: center;
     text-decoration: none;
-    padding: 7px 10px;
+    margin-right: 17px;
     transition: color .5s, background .5s;
 }
 
 .pagination__link:hover, .pagination__btn:hover {
     color: #ec1e79;
-    background: #27273e;
-    border-radius: 3px;
 }
 
 .pagination__link_active {
@@ -55,6 +60,8 @@
     color: #ec1e79;
     background: #27273e;
     border-radius: 3px;
+    padding: 4px 9px;
+    margin-right: 5px;
 }
 
 .pagination__btn_active:hover {

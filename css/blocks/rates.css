@@ -1,6 +1,7 @@
 .rates__title {
     font-family: 'gotha_bold', Arial, serif;
     font-size: 49px;
+    margin: 18px 0 37px 0;
 }
 
 .rates__list {
@@ -11,16 +12,20 @@
     width: 250px;
     min-height: 375px;
     display: inline-block;
-    margin-right: 45px;
-    margin-bottom: 50px;
+    margin-right: 53px;
+    margin-bottom: 38px;
     vertical-align: top;
+}
+
+.rates__item--last {
+    margin-right: 0;
 }
 
 .rates__img {
     display: inline-block;
     width: 250px;
     height: 153px;
-    margin-bottom: 26px;
+    margin-bottom: 22px;
     position: relative;
 }
 
@@ -63,12 +68,11 @@
     font-size: 18px;
     font-family: 'gotha_bold', Arial, serif;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 13px;
 }
 
 .rates__text {
     font-size: 14px;
-    width: 230px;
     font-family: 'gotha_light', Arial, serif;
     line-height: 21px;
     text-align: center;
@@ -79,6 +83,7 @@
 .partners__title {
     font-family: 'gotha_bold', Arial, serif;
     font-size: 49px;
+    margin: 0 0 45px 5px;
 }
 
 .partners__logo {
@@ -87,70 +92,103 @@
 
 .partners__link {
     display: inline-block;
-    margin-right: 120px;
-    margin-bottom: 55px;
+    margin-right: 117px;
+    margin-bottom: 34px;
 }
 
 .partners__avatar {
-    background: url("../../img/sprite/rates-sprite.png") no-repeat;
+    position: relative;
+    width: 170px;
+    height: 65px;
 }
 
-.partners__avatar--winter {
-    width: 160px;
-    height: 41px;
-    background-position: -190px -334px;
+.partners__link img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: opacity 1s;
 }
 
-.partners__avatar--drop {
-    width: 123px;
-    height: 62px;
-    background-position: -160px -252px;
+/*winter*/
+
+.partners__link img.partners__img--winter-color {
+    opacity: 0;
 }
 
-.partners__avatar--anna {
-    width: 130px;
-    height: 62px;
-    background-position: -10px -252px;
+.partners__link:hover img.partners__img--winter-color {
+    opacity: 1;
 }
 
-.partners__avatar--tishkin {
-    width: 160px;
-    height: 60px;
-    background-position: -10px -10px;
+.partners__link:hover img.partners__img--winter-wb {
+    opacity: 0;
 }
 
-.partners__avatar--pyphok {
-    width: 137px;
-    height: 62px;
-    background-position: -10px -170px;
+/*drop*/
+
+.partners__link img.partners__img--drop-color {
+    opacity: 0;
 }
 
-.partners__avatar--avatntash {
-    width: 51px;
-    height: 62px;
-    background-position: -347px -92px;
+.partners__link:hover img.partners__img--drop-color {
+    opacity: 1;
 }
 
-.partners__avatar--winter:hover {
-    background-position: -10px -334px;
+.partners__link:hover img.partners__img--drop-wb {
+    opacity: 0;
 }
 
-.partners__avatar--drop:hover {
-    background-position: -347px -10px;
+/*Anna*/
+
+.partners__link img.partners__img--anna-color {
+    opacity: 0;
 }
 
-.partners__avatar--anna:hover {
-    background-position: -167px -170px;
+.partners__link:hover img.partners__img--anna-color {
+    opacity: 1;
 }
 
-.partners__avatar--tishkin:hover {
-    background-position: -10px -90px;
+.partners__link:hover img.partners__img--anna-wb {
+    opacity: 0;
 }
 
-.partners__avatar--pyphok:hover {
-    background-position: -190px -10px;
+/*tishkin*/
+
+.partners__link img.partners__img--tishkin-color {
+    opacity: 0;
 }
 
-.partners__avatar--avatntash:hover {
-    background-position: -418px -92px;
+.partners__link:hover img.partners__img--tishkin-color {
+    opacity: 1;
+}
+
+.partners__link:hover img.partners__img--tishkin-wb {
+    opacity: 0;
+}
+
+/*pyphok*/
+
+.partners__link img.partners__img--pyphok-color {
+    opacity: 0;
+}
+
+.partners__link:hover img.partners__img--pyphok-color {
+    opacity: 1;
+}
+
+.partners__link:hover img.partners__img--pyphok-wb {
+    opacity: 0;
+}
+
+/*avantash*/
+
+.partners__link img.partners__img--avantash-color {
+    opacity: 0;
+}
+
+.partners__link:hover img.partners__img--avantash-color {
+    opacity: 1;
+}
+
+.partners__link:hover img.partners__img--avantash-wb {
+    opacity: 0;
 }
