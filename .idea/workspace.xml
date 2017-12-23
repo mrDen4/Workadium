@@ -3,20 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a28fa31a-302f-4c4a-8256-fdaade293bc4" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/comments.html" afterPath="$PROJECT_DIR$/comments.html" />
-      <change beforePath="$PROJECT_DIR$/css/blocks/breadcrumbs.css" afterPath="$PROJECT_DIR$/css/blocks/breadcrumbs.css" />
-      <change beforePath="$PROJECT_DIR$/css/blocks/comments-page.css" afterPath="$PROJECT_DIR$/css/blocks/comments-page.css" />
-      <change beforePath="$PROJECT_DIR$/css/blocks/container.css" afterPath="$PROJECT_DIR$/css/blocks/container.css" />
-      <change beforePath="$PROJECT_DIR$/css/blocks/footer.css" afterPath="$PROJECT_DIR$/css/blocks/footer.css" />
-      <change beforePath="$PROJECT_DIR$/css/blocks/header.css" afterPath="$PROJECT_DIR$/css/blocks/header.css" />
-      <change beforePath="$PROJECT_DIR$/css/blocks/index.css" afterPath="$PROJECT_DIR$/css/blocks/index.css" />
-      <change beforePath="$PROJECT_DIR$/css/blocks/main-page.css" afterPath="$PROJECT_DIR$/css/blocks/main-page.css" />
-      <change beforePath="$PROJECT_DIR$/css/blocks/nav.css" afterPath="$PROJECT_DIR$/css/blocks/nav.css" />
-      <change beforePath="$PROJECT_DIR$/css/blocks/pagination.css" afterPath="$PROJECT_DIR$/css/blocks/pagination.css" />
       <change beforePath="$PROJECT_DIR$/css/blocks/rates.css" afterPath="$PROJECT_DIR$/css/blocks/rates.css" />
-      <change beforePath="$PROJECT_DIR$/css/blocks/work-drop.css" afterPath="$PROJECT_DIR$/css/blocks/work-drop.css" />
-      <change beforePath="$PROJECT_DIR$/img/sprite/rates-sprite.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/rates.html" afterPath="$PROJECT_DIR$/rates.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -75,8 +62,8 @@
           <file leaf-file-name="rates.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/rates.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="837">
-                  <caret line="174" column="42" lean-forward="false" selection-start-line="174" selection-start-column="42" selection-end-line="174" selection-end-column="42" />
+                <state relative-caret-position="418">
+                  <caret line="121" column="49" lean-forward="true" selection-start-line="121" selection-start-column="49" selection-end-line="121" selection-end-column="49" />
                   <folding />
                 </state>
               </provider>
@@ -86,7 +73,7 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="index.css" pinned="false" current-in-tab="true">
+          <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/blocks/index.css">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="538">
@@ -156,11 +143,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="rates.css" pinned="false" current-in-tab="false">
+          <file leaf-file-name="rates.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/blocks/rates.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="881">
-                  <caret line="95" column="24" lean-forward="false" selection-start-line="95" selection-start-column="24" selection-end-line="95" selection-end-column="24" />
+                <state relative-caret-position="109">
+                  <caret line="32" column="29" lean-forward="false" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
                   <folding />
                 </state>
               </provider>
@@ -233,9 +220,9 @@
         <option value="$PROJECT_DIR$/css/blocks/comments-page.css" />
         <option value="$PROJECT_DIR$/css/blocks/footer.css" />
         <option value="$PROJECT_DIR$/comments.html" />
-        <option value="$PROJECT_DIR$/css/blocks/rates.css" />
         <option value="$PROJECT_DIR$/rates.html" />
         <option value="$PROJECT_DIR$/css/blocks/index.css" />
+        <option value="$PROJECT_DIR$/css/blocks/rates.css" />
       </list>
     </option>
   </component>
@@ -362,12 +349,12 @@
       <workItem from="1513969988611" duration="3869000" />
       <workItem from="1514023730778" duration="543000" />
       <workItem from="1514049197399" duration="21000" />
-      <workItem from="1514059580656" duration="9820000" />
+      <workItem from="1514059580656" duration="10043000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78196000" />
+    <option name="totallyTimeSpent" value="78419000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="0" width="1600" height="1200" extended-state="0" />
@@ -745,26 +732,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/blocks/rates.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="881">
-          <caret line="95" column="24" lean-forward="false" selection-start-line="95" selection-start-column="24" selection-end-line="95" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/blocks/footer.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
           <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rates.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="837">
-          <caret line="174" column="42" lean-forward="false" selection-start-line="174" selection-start-column="42" selection-end-line="174" selection-end-column="42" />
           <folding />
         </state>
       </provider>
@@ -785,10 +756,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/rates.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="121" column="49" lean-forward="true" selection-start-line="121" selection-start-column="49" selection-end-line="121" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/blocks/index.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="538">
           <caret line="43" column="21" lean-forward="true" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/blocks/rates.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="32" column="29" lean-forward="false" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
           <folding />
         </state>
       </provider>
