@@ -13,15 +13,10 @@
 	min-height: 400px;
 	background: #27273e;
 }
+
 .logo_header {
 	float: left;
 	width: 50%;
-}
-
-.logo_footer {
-	text-align: center;
-	float: left;
-	width: 33%;
 }
 
 .header__contacts {

@@ -7,6 +7,12 @@
 	font-family: 'gotha_bold', Arial, serif;
 }
 
+.logo_footer {
+	text-align: center;
+	float: left;
+	width: 33%;
+}
+
 .footer--comments {
 	margin-top: 49px;
 }
